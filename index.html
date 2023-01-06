@@ -6,11 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PokedeX</title>
   <link rel="stylesheet" href="./pokestyle.css">
-<script src="/pokeapi.js" defer></script>
+<!--<script src="/pokeapi.js" defer></script> --> 
+<script src="https://davidm444.github.io/pokeapi.js/" defer></script>
 </head>
-
 <body>
-
     <section>
         <div>
             <h1>PokeApi</h1>
@@ -35,23 +34,17 @@
           <div id="border-screen">
             <div id="button-top1"></div>
             <div id="button-top2"></div>
-           
             <p class="selectDisable">&equiv;&equiv;</p>
           </div>
           <div id="screen">
             <img id="pokeimg" src="./assets_pode/pokeball.png" alt=""/></div>
           <div id="triangle"></div>
-
           <div id="square-button-left">
             <input id="nb" type="text" placeholder="Pokemon" name="nb">
           </div>
            <div id="text-i">
                 <button type="submit" onclick="fetchPokemon()">Search</button>
           </div>
-
-
-
-
         </div>
           <div id="middle">
             <div id="hinge1"></div>
@@ -62,23 +55,16 @@
           <div id="info-screen">
             <div id="name" >Name</div>
             <div id="type-pokemon" >Type</div>
-
-
-
-
             <div id="info-statics">
               <button id="open_stat">Stats</button>
               <div class="v_stat" id="v_stat">
                 <div class="modal_stat">
-                 
                   <p  id="pstat">
                   </p>
                   <button id="close_stat">Close</button>
                 </div>
               </div>
             </div>
-
-
             <div id="info-movement">
               <button id="open">Movements</button>
               <div class="v_modal" id="v_modal">
@@ -88,7 +74,6 @@
                   <button id="close">Close</button>
                 </div>
               </div>
-
             </div>
             <div class="boxes">
               <div class="box">0</div>
@@ -104,16 +89,10 @@
               <div class="box">8</div>
               <div class="box">9</div>
             </div>
-        
           </div>
         </div>
           <div id="top-right1"></div>
-  
       </div>
     </section>
-    
 </body>
-
-
-
 </html>

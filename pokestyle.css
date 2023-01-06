@@ -54,8 +54,6 @@ h1{
   height: 500px;
 }
 
-
-
 #left {
   position: relative;
   float: left;
@@ -266,9 +264,7 @@ h1{
   border-radius: 15px;
 }
 
-
-#triangle {
-  
+#triangle { 
   position: absolute;
   z-index: 120;
   margin: 315px auto auto 25px;
@@ -318,7 +314,6 @@ h1{
 
 #button-bottom:active {
   box-shadow: none;
-  
   box-shadow: 0px 0px 10px 3px darken(var(--red), 10%) inset;
   border: var(--black) solid 1px;
 }
@@ -328,9 +323,6 @@ h1{
   font-size: 4em;
   color: var(--charcoal);
 }
-
-
-
 
 #square-button-left {
   position: absolute;
@@ -373,12 +365,8 @@ h1{
     
 }
 
-
-
-
 #info-screen {
-    display: flex;
-    
+    display: flex;   
     position: absolute;
     z-index: 130;
     margin: 25px auto auto 30px;
@@ -386,17 +374,13 @@ h1{
     height: 375px;
     width: 290px;
     box-shadow: 0 0 20px var(--dark-green) inset, 0px 0px 1px 1px darken(var(red), 20%) ;
-    background-color: var(--burgundy);
-   
+    background-color: var(--burgundy);   
     color: darken(var(--dark-green), 5%);
     font-size: 1.2em;
-    
-
   }
 
 #name{
     display: flex;
-   
     z-index: 130;
     background-color: var(--yellow);
     height: 30px;
@@ -408,17 +392,14 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 #especificaciones{
     display: flex;
     position: absolute;
-
     z-index: 130;
     background-color: #ec3c1d;
     height: 130px;
     width: 160px;
     margin: 10px auto auto 0px;
-   
 }
 
 #type-pokemon{
@@ -447,8 +428,7 @@ h1{
     align-items: center;
     z-index: 130;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 80px auto auto 0px;
-    
+    margin: 80px auto auto 0px; 
 }
 
 .v_stat{
@@ -462,34 +442,33 @@ h1{
   width: 280px;
   margin: 50px 0px 0px 205px;
   z-index: 140;
-
 }
+
 .show {
   pointer-events: auto;
   opacity: 1;
 }
+
 .modal_stat{
   background-color: var(--yellow);
   width: 200px;
   text-align: justify;
   margin-left: 90px;
   border:3px solid var(--red)
-
 }
 
 .modal_stat p{
-  
   margin-top: auto;
-  
 }
+
 .modal_stat #close_stat{
   background-color: var(--dark-turquoise);
   margin-left: 70%;
 }
+
 #info-movement{
     display: flex;
     position:absolute;
-    
     justify-content: center;
     align-items: center;
     z-index: 130;
@@ -497,15 +476,15 @@ h1{
     margin: 150px auto auto 0px;
     font-family: Arial, Helvetica, sans-serif;
     
-} 
+}
+
 #open, #open_stat{
   background-color: var(--charcoal);
   margin: 15px;
   border: 3px solid var(--black);
   color: white;
-
-  
 }
+
 .v_modal{
   display: flex;
   justify-content: center;
@@ -528,6 +507,7 @@ h1{
   pointer-events: auto;
   opacity: 1;
 }
+
 .modal p{
   background-color: transparent;
   width: 260px;
@@ -536,6 +516,7 @@ h1{
   font-size: 12px;
   font-weight: 300;
 }
+
 .modal button{
   text-align: center;
 }
@@ -545,17 +526,15 @@ h1{
   position: absolute;
   height: 30px;
   width: 150px;
-
-
   margin: 200px 0 0 67px;
 }
+
 .boxes2 {
   position: absolute;
   display: flex;
   height: 30px;
   width: 150px;
   margin: 240px 0 0 67px;
-
 }
 
 .box {
@@ -569,13 +548,6 @@ h1{
   color: var(--dark-black);
   font-weight: 600;
 }
-
-
-
-
-
-
-
 
 @media (max-width: 756px) {
   #right, #top-right1, #top-right2, #border-screen, #screen, #cross, #blue-button-left, #green-button-left, #orange-button-left, #square-button-left{
